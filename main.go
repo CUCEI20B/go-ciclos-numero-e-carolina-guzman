@@ -18,11 +18,10 @@ func main() {
 
 	for i:= 0; i <= infinito; i++ { //5
 		respuesta = respuesta + (1 / factorial(n))
-		fmt.Println("->", respuesta)
 		n++
 
 	}
 
-	fmt.Println("Resultado ", respuesta)
+	fmt.Println(respuesta)
  }
  
